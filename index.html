@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <div class="container">
+
+        <!-- SIDEBAR -->
+        <aside class="sidebar">
+
+            <a href="#" class="brand">
+                <svg class="icon dashboard-icon" viewBox="0 0 24 24" aria-hidden="true">
+                    <path fill="currentColor" d="M3 13h8V3H3v10zm0 8h8v-6H3v6zm10 0h8V11h-8v10zm0-18v6h8V3h-8z"/>
+                </svg>
+                <span>Dashboard</span>
+            </a>
+
+            <nav class="navigation">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                                <path fill="currentColor" d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/>
+                            </svg>
+                            <span>Home</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                                <path fill="currentColor" d="M12 12a5 5 0 1 0 0-10 5 5 0 0 0 0 10zm0 2c-3.33 0-10 1.67-10 5v3h20v-3c0-3.33-6.67-5-10-5z"/>
+                            </svg>
+                            <span>Profile</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                                <path fill="currentColor" d="M20 2H4a2 2 0 0 0-2 2v18l4-4h14a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2z"/>
+                            </svg>
+                            <span>Messages</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                                <path fill="currentColor" d="M13 3a9 9 0 0 0-9 9H1l4 4 4-4H6a7 7 0 1 1 2.05 4.95l-1.42 1.42A9 9 0 1 0 13 3zm-1 5v5l4.25 2.52.77-1.28-3.52-2.09V8z"/>
+                            </svg>
+                            <span>History</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                                <path fill="currentColor" d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2zM10 17l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9z"/>
+                            </svg>
+                            <span>Tasks</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                                <path fill="currentColor" d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5s-3 1.34-3 3 1.34 3 3 3zM8 11c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5C15 14.17 10.33 13 8 13zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.98 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/>
+                            </svg>
+                            <span>Communities</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <nav class="secondary-navigation">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                                <path fill="currentColor" d="M19.14 12.94a7.5 7.5 0 0 0 .05-.94c0-.32-.02-.63-.06-.94l2.03-1.58-2-3.46-2.39.96a7.3 7.3 0 0 0-1.63-.94L14.78 3h-4l-.36 3.04a7.3 7.3 0 0 0-1.63.94L6.4 6.02l-2 3.46 2.03 1.58a7.5 7.5 0 0 0 0 1.88L4.4 14.52l2 3.46 2.39-.96c.5.39 1.05.7 1.63.94L10.78 21h4l.36-3.04a7.3 7.3 0 0 0 1.63-.94l2.39.96 2-3.46zM12.78 15.5a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7z"/>
+                            </svg>
+                            <span>Settings</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                                <path fill="currentColor" d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm1 17h-2v-2h2zm2.07-7.75-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26a2 2 0 1 0-3.41-1.41H8a4 4 0 1 1 7.07 2.25z"/>
+                            </svg>
+                            <span>Support</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                                <path fill="currentColor" d="M12 1 3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5zm-2 16-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9z"/>
+                            </svg>
+                            <span>Privacy</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+        </aside>
+
+        <!-- HEADER -->
+        <header class="header">
+
+            <div class="search">
+                <label for="search">
+                    <svg class="icon dark-icon" viewBox="0 0 24 24" aria-hidden="true">
+                        <path fill="currentColor" d="M15.5 14h-.79l-.28-.27A6.5 6.5 0 1 0 14 15.5l.27.28v.79l5 4.99L20.49 20l-4.99-5zm-5 0A4.5 4.5 0 1 1 10.5 5a4.5 4.5 0 0 1 0 9z"/>
+                    </svg>
+                </label>
+                <input type="search" id="search" placeholder="Search...">
+            </div>
+
+            <div class="user-info">
+                <button class="icon-button" aria-label="Notifications">
+                    <svg class="icon dark-icon" viewBox="0 0 24 24" aria-hidden="true">
+                        <path fill="currentColor" d="M12 22a2 2 0 0 0 2-2h-4a2 2 0 0 0 2 2zm6-6v-5a6 6 0 0 0-5-5.91V4a1 1 0 0 0-2 0v1.09A6 6 0 0 0 6 11v5l-2 2v1h16v-1z"/>
+                    </svg>
+                </button>
+                <span class="avatar">N</span>
+                <span class="username">Ngusey</span>
+            </div>
+
+            <div class="greeting">
+                <span class="avatar large-avatar">N</span>
+                <div>
+                    <p>Hi there,</p>
+                    <h2>Ngusey (@ngusey)</h2>
+                </div>
+            </div>
+
+            <div class="header-buttons">
+                <button>
+                    <svg class="icon small-icon" viewBox="0 0 24 24" aria-hidden="true">
+                        <path fill="currentColor" d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6z"/>
+                    </svg>
+                    New
+                </button>
+
+                <button>
+                    <svg class="icon small-icon" viewBox="0 0 24 24" aria-hidden="true">
+                        <path fill="currentColor" d="M5 20h14v-2H5zm7-18L5.33 8.67l1.42 1.42L11 6.83V16h2V6.83l4.25 3.26 1.42-1.42z"/>
+                    </svg>
+                    Upload
+                </button>
+
+                <button>
+                    <svg class="icon small-icon" viewBox="0 0 24 24" aria-hidden="true">
+                        <path fill="currentColor" d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7a3.2 3.2 0 0 0 0-1.39l7.05-4.11A3 3 0 1 0 15 5c0 .23.03.46.08.68L8.03 9.79a3 3 0 1 0 0 4.42l7.12 4.16c-.05.2-.07.41-.07.63a2.92 2.92 0 1 0 2.92-2.92z"/>
+                    </svg>
+                    Share
+                </button>
+            </div>
+
+        </header>
+
+        <!-- MAIN CONTENT -->
+        <main class="main-content">
+
+            <section class="projects">
+                <h2>Your Projects</h2>
+
+                <div class="project-cards">
+
+                    <article class="card">
+                        <h3>Super Cool Project</h3>
+                        <p>A modern project built to solve an interesting problem.</p>
+                        <div class="card-actions">
+                            <button class="icon-button" aria-label="Favorite project">
+                                <svg class="icon dark-icon" viewBox="0 0 24 24" aria-hidden="true">
+                                    <path fill="currentColor" d="m12 17.27 5.18 3.13-1.64-7.03L21 8.64l-7.19-.61L12 1.4 9.19 8.03 2 8.64l5.46 4.73-1.64 7.03z"/>
+                                </svg>
+                            </button>
+                            <button class="icon-button" aria-label="View project">
+                                <svg class="icon dark-icon" viewBox="0 0 24 24" aria-hidden="true">
+                                    <path fill="currentColor" d="M12 5c-5 0-9.27 3.11-11 7 1.73 3.89 6 7 11 7s9.27-3.11 11-7c-1.73-3.89-6-7-11-7zm0 12a5 5 0 1 1 0-10 5 5 0 0 1 0 10zm0-2a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                                </svg>
+                            </button>
+                            <button class="icon-button" aria-label="Share project">
+                                <svg class="icon dark-icon" viewBox="0 0 24 24" aria-hidden="true">
+                                    <path fill="currentColor" d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7a3.2 3.2 0 0 0 0-1.39l7.05-4.11A3 3 0 1 0 15 5c0 .23.03.46.08.68L8.03 9.79a3 3 0 1 0 0 4.42l7.12 4.16c-.05.2-.07.41-.07.63a2.92 2.92 0 1 0 2.92-2.92z"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <h3>Less Cool Project</h3>
+                        <p>A useful application with a simple interface.</p>
+                        <div class="card-actions">
+                            <button class="icon-button" aria-label="Favorite project">
+                                <svg class="icon dark-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="m12 17.27 5.18 3.13-1.64-7.03L21 8.64l-7.19-.61L12 1.4 9.19 8.03 2 8.64l5.46 4.73-1.64 7.03z"/></svg>
+                            </button>
+                            <button class="icon-button" aria-label="View project">
+                                <svg class="icon dark-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 5c-5 0-9.27 3.11-11 7 1.73 3.89 6 7 11 7s9.27-3.11 11-7c-1.73-3.89-6-7-11-7zm0 12a5 5 0 1 1 0-10 5 5 0 0 1 0 10z"/></svg>
+                            </button>
+                            <button class="icon-button" aria-label="Share project">
+                                <svg class="icon dark-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7a3.2 3.2 0 0 0 0-1.39l7.05-4.11A3 3 0 1 0 15 5c0 .23.03.46.08.68L8.03 9.79a3 3 0 1 0 0 4.42l7.12 4.16c-.05.2-.07.41-.07.63a2.92 2.92 0 1 0 2.92-2.92z"/></svg>
+                            </button>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <h3>Impossible App</h3>
+                        <p>An ambitious experiment in application design.</p>
+                        <div class="card-actions">
+                            <button class="icon-button" aria-label="Favorite project"><svg class="icon dark-icon" viewBox="0 0 24 24"><path fill="currentColor" d="m12 17.27 5.18 3.13-1.64-7.03L21 8.64l-7.19-.61L12 1.4 9.19 8.03 2 8.64l5.46 4.73-1.64 7.03z"/></svg></button>
+                            <button class="icon-button" aria-label="View project"><svg class="icon dark-icon" viewBox="0 0 24 24"><path fill="currentColor" d="M12 5c-5 0-9.27 3.11-11 7 1.73 3.89 6 7 11 7s9.27-3.11 11-7c-1.73-3.89-6-7-11-7zm0 12a5 5 0 1 1 0-10 5 5 0 0 1 0 10z"/></svg></button>
+                            <button class="icon-button" aria-label="Share project"><svg class="icon dark-icon" viewBox="0 0 24 24"><path fill="currentColor" d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7a3.2 3.2 0 0 0 0-1.39l7.05-4.11A3 3 0 1 0 15 5c0 .23.03.46.08.68L8.03 9.79a3 3 0 1 0 0 4.42l7.12 4.16c-.05.2-.07.41-.07.63a2.92 2.92 0 1 0 2.92-2.92z"/></svg></button>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <h3>Easy Peasy App</h3>
+                        <p>A lightweight tool designed for everyday work.</p>
+                        <div class="card-actions">
+                            <button class="icon-button" aria-label="Favorite project"><svg class="icon dark-icon" viewBox="0 0 24 24"><path fill="currentColor" d="m12 17.27 5.18 3.13-1.64-7.03L21 8.64l-7.19-.61L12 1.4 9.19 8.03 2 8.64l5.46 4.73-1.64 7.03z"/></svg></button>
+                            <button class="icon-button" aria-label="View project"><svg class="icon dark-icon" viewBox="0 0 24 24"><path fill="currentColor" d="M12 5c-5 0-9.27 3.11-11 7 1.73 3.89 6 7 11 7s9.27-3.11 11-7c-1.73-3.89-6-7-11-7zm0 12a5 5 0 1 1 0-10 5 5 0 0 1 0 10z"/></svg></button>
+                            <button class="icon-button" aria-label="Share project"><svg class="icon dark-icon" viewBox="0 0 24 24"><path fill="currentColor" d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7a3.2 3.2 0 0 0 0-1.39l7.05-4.11A3 3 0 1 0 15 5c0 .23.03.46.08.68L8.03 9.79a3 3 0 1 0 0 4.42l7.12 4.16c-.05.2-.07.41-.07.63a2.92 2.92 0 1 0 2.92-2.92z"/></svg></button>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <h3>Ad Blocker</h3>
+                        <p>A browser tool that helps reduce unwanted content.</p>
+                        <div class="card-actions">
+                            <button class="icon-button" aria-label="Favorite project"><svg class="icon dark-icon" viewBox="0 0 24 24"><path fill="currentColor" d="m12 17.27 5.18 3.13-1.64-7.03L21 8.64l-7.19-.61L12 1.4 9.19 8.03 2 8.64l5.46 4.73-1.64 7.03z"/></svg></button>
+                            <button class="icon-button" aria-label="View project"><svg class="icon dark-icon" viewBox="0 0 24 24"><path fill="currentColor" d="M12 5c-5 0-9.27 3.11-11 7 1.73 3.89 6 7 11 7s9.27-3.11 11-7c-1.73-3.89-6-7-11-7zm0 12a5 5 0 1 1 0-10 5 5 0 0 1 0 10z"/></svg></button>
+                            <button class="icon-button" aria-label="Share project"><svg class="icon dark-icon" viewBox="0 0 24 24"><path fill="currentColor" d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7a3.2 3.2 0 0 0 0-1.39l7.05-4.11A3 3 0 1 0 15 5c0 .23.03.46.08.68L8.03 9.79a3 3 0 1 0 0 4.42l7.12 4.16c-.05.2-.07.41-.07.63a2.92 2.92 0 1 0 2.92-2.92z"/></svg></button>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <h3>Money Maker</h3>
+                        <p>A financial tracking concept for personal projects.</p>
+                        <div class="card-actions">
+                            <button class="icon-button" aria-label="Favorite project"><svg class="icon dark-icon" viewBox="0 0 24 24"><path fill="currentColor" d="m12 17.27 5.18 3.13-1.64-7.03L21 8.64l-7.19-.61L12 1.4 9.19 8.03 2 8.64l5.46 4.73-1.64 7.03z"/></svg></button>
+                            <button class="icon-button" aria-label="View project"><svg class="icon dark-icon" viewBox="0 0 24 24"><path fill="currentColor" d="M12 5c-5 0-9.27 3.11-11 7 1.73 3.89 6 7 11 7s9.27-3.11 11-7c-1.73-3.89-6-7-11-7zm0 12a5 5 0 1 1 0-10 5 5 0 0 1 0 10z"/></svg></button>
+                            <button class="icon-button" aria-label="Share project"><svg class="icon dark-icon" viewBox="0 0 24 24"><path fill="currentColor" d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7a3.2 3.2 0 0 0 0-1.39l7.05-4.11A3 3 0 1 0 15 5c0 .23.03.46.08.68L8.03 9.79a3 3 0 1 0 0 4.42l7.12 4.16c-.05.2-.07.41-.07.63a2.92 2.92 0 1 0 2.92-2.92z"/></svg></button>
+                        </div>
+                    </article>
+
+                </div>
+            </section>
+
+            <!-- RIGHT COLUMN -->
+            <aside class="right-sidebar">
+
+                <section class="announcements">
+                    <h2>Announcements</h2>
+
+                    <article>
+                        <h3>Site Maintenance</h3>
+                        <p>Scheduled maintenance information and service updates.</p>
+                    </article>
+
+                    <article>
+                        <h3>Community Share Day</h3>
+                        <p>Share your projects and learn from other developers.</p>
+                    </article>
+
+                    <article>
+                        <h3>Updated Privacy Policy</h3>
+                        <p>Review our latest privacy and security information.</p>
+                    </article>
+                </section>
+
+                <section class="trending">
+                    <h2>Trending</h2>
+
+                    <article class="trend-item">
+                        <span class="avatar trend-avatar avatar-pink">T</span>
+                        <div>
+                            <h3>@tegan</h3>
+                            <p>World Peace Builder</p>
+                        </div>
+                    </article>
+
+                    <article class="trend-item">
+                        <span class="avatar trend-avatar avatar-purple">M</span>
+                        <div>
+                            <h3>@morgan</h3>
+                            <p>Super Cool Project</p>
+                        </div>
+                    </article>
+
+                    <article class="trend-item">
+                        <span class="avatar trend-avatar avatar-green">K</span>
+                        <div>
+                            <h3>@kendall</h3>
+                            <p>Life Changing App</p>
+                        </div>
+                    </article>
+
+                    <article class="trend-item">
+                        <span class="avatar trend-avatar avatar-orange">A</span>
+                        <div>
+                            <h3>@alex</h3>
+                            <p>No Traffic Maker</p>
+                        </div>
+                    </article>
+                </section>
+
+            </aside>
+        </main>
+
+    </div>
+</body>
+</html>
